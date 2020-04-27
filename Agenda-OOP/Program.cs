@@ -12,9 +12,6 @@ namespace Agenda_OOP
         public static List<Persoana> persoane = new List<Persoana>();
         static void Main(string[] args)
         {
-            //Asta este cea mai buna tema pe care am primit-o, serios :D
-            
-            Persoana p = new Persoana();
             string nume="";
             string input;
             int counter = 1 ;
@@ -41,12 +38,17 @@ namespace Agenda_OOP
             else
             {
                 Console.WriteLine("There are no users with an agenda. Press 'c' to create one. ");
-                
             }
             Console.ForegroundColor = ConsoleColor.White;
             input = Console.ReadLine();
             try{
-            if (input=="c")
+            if(input=="d")
+            {
+                Console.WriteLine("Which person should be deleted");
+                int index=Convert.ToInt32(Console.ReadLine());
+                persoane.RemoveAt(index-1);
+            }
+            else if (input=="c")
             {
                 Console.Write("Enter a name:");
                 nume = Console.ReadLine();
@@ -65,9 +67,14 @@ namespace Agenda_OOP
                 if(persoane[index-1].acts.Count>0){
                     ShowAgenda(index-1);
                 }
+                else{
+                    Console.WriteLine("There are no activities in this agenda");
+                    
+                    }
                 Console.ForegroundColor = ConsoleColor.White;
                 Again:
                 input=Console.ReadLine();
+                
                 if(input=="b")
                 {
                     goto Start;    
@@ -76,9 +83,19 @@ namespace Agenda_OOP
                 {
                     AddActivity(index-1);
                 }
+                else if(Convert.ToInt32(input)> 0 && Convert.ToInt32(input) <= persoane[index-1].acts.Count()&&persoane[index-1].acts.Count()>0){
+                        
+                    int index2=Convert.ToInt32(input);
+                        
+                    Console.Clear();
+                        
+                    persoane[index-1].ShowDetailedActivity(index2-1);
+                    
+                }
                 else
                 {
                     Console.WriteLine("Not valid");
+                    Console.ReadLine();
                     goto Again;
                 }
 
@@ -86,10 +103,10 @@ namespace Agenda_OOP
             }
             catch(System.FormatException){
                 Console.WriteLine("Invalid input");
+                Console.ReadLine();
             }
             
             goto Start;
-            //AutoRead();
 
             
         }

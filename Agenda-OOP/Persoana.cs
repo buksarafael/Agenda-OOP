@@ -22,14 +22,30 @@ namespace Agenda_OOP
 
         public void ShowAgenda()
         {
+            int i=1;
             foreach(var activities in acts){
-                Console.WriteLine(activities.name);
-                Console.Write(activities.start+"-"+activities.finish+" ");
-                Console.Write(activities.description+" ");
-                Console.Write(activities.participants);
-
+                Console.Write(i+": ");
+                Console.Write(activities.name);
+                
             }
         }
+        //persno=pers number
+        public void ShowDetailedActivity(int index){
+
+            Console.WriteLine(index);
+            Console.WriteLine(acts[index].name);
+            Console.WriteLine("The activity starts on "+acts[index].start+" and ends on "+acts[index].finish);
+            Console.WriteLine("");
+            Console.WriteLine("Description: ");
+            Console.WriteLine(acts[index].description);
+            if(acts[index].participants!=""){
+            Console.Write("Participants: ");
+            Console.Write(acts[index].participants);
+            }
+            Console.ReadLine();
+        
+        }
+
 
         public void AddActivity()
         {
