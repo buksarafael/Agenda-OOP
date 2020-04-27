@@ -81,10 +81,7 @@ namespace Agenda_OOP
                     Console.WriteLine("Not valid");
                     goto Again;
                 }
-                
 
-
-                
             }
             }
             catch(System.FormatException){
@@ -106,19 +103,7 @@ namespace Agenda_OOP
         private static void AddActivity(int index)
         {
             persoane[Convert.ToInt32(index)].AddActivity();
-        
-        
         }
-        private static void AutoRead()
-        {
-            StreamReader sr = new StreamReader("..\\..\\Persoane.txt");
-            using (sr)
-            {
-                while (sr.Peek() > 0)
-                {
-                    string nume = sr.ReadLine();
-                }
-            }
-        }
+        
     }
 }

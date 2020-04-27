@@ -23,7 +23,11 @@ namespace Agenda_OOP
         public void ShowAgenda()
         {
             foreach(var activities in acts){
-            System.Console.WriteLine(activities);
+                Console.WriteLine(activities.name);
+                Console.Write(activities.start+"-"+activities.finish+" ");
+                Console.Write(activities.description+" ");
+                Console.Write(activities.participants);
+
             }
         }
 
@@ -33,6 +37,7 @@ namespace Agenda_OOP
             string description;
             string startdate;
             string finishdate;
+            string participants;
             DateTime start = new DateTime();
             DateTime finish = new DateTime();
             string[] date;
@@ -50,6 +55,12 @@ namespace Agenda_OOP
             finishdate=Console.ReadLine();
             date= finishdate.Split(new Char [] {',' , '/', ' ' });
             finish = new DateTime(Convert.ToInt32(date[0]),Convert.ToInt32(date[1]),Convert.ToInt32(date[2]),Convert.ToInt32(date[3]),Convert.ToInt32(date[4]),00);
+
+            Console.WriteLine("Other participants: ");
+            participants=Console.ReadLine();
+
+            acts.Add(new Activities(){name=name,description=description,start=start,finish=finish,participants=participants});
+
 
 
         }
