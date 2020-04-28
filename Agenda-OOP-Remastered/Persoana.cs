@@ -27,7 +27,7 @@ namespace Agenda_OOP_Remastered
             Console.WriteLine(acts[index].description);
             if (acts[index].participants != "")
             {
-                Console.Write("Participants: ");
+                Console.Write("Participant: ");
                 Console.WriteLine(acts[index].participants);
             }
             Console.WriteLine("Press enter to continue...");

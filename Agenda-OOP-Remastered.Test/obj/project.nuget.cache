@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ly3DT5AoJrOoErt8EOGhQPYCcBTVffBTNW3p+dgxBkub6EjgbgWmDaAIu9xetmKpoKrw0EX9MbkW18In7VWnMg==",
+  "dgSpecHash": "cLJZqSBtmF2EGQZPiVxZNIkbagBU7gDWBEcN4N3z9iBAlsF8eTttoXsumXTtMADch+3RPJi6ykSSOJHek8ChIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.Test\\Agenda-OOP-Remastered.Test.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered.Test\\Agenda-OOP-Remastered.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafael\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.codecoverage\\16.2.0\\microsoft.codecoverage.16.2.0.nupkg.sha512",

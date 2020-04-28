@@ -11,7 +11,7 @@ namespace Agenda_OOP_Remastered
     {
         
         /// <summary>
-        /// Fiecare persoana va avea o agenda, in principal deoarece asa mi se pare cel mai logic, de aceea agenda si persoana vor fi tratate cam la fel.
+        /// Fiecare persoana va avea o agenda.
         /// Fiecare agenda/persoana are o lista diferita de activitati.
         /// Activitatile au atributele specificate pe platforma.
         /// Programul nu suporta CSV, in schimb suporta un proprietary text parsing, "sintaxa" poate fi verificata in persoane.txt

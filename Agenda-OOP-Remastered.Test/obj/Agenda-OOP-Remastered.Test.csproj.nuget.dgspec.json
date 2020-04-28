@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.Test\\Agenda-OOP-Remastered.Test.csproj": {}
+    "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered.Test\\Agenda-OOP-Remastered.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.Test\\Agenda-OOP-Remastered.Test.csproj": {
+    "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered.Test\\Agenda-OOP-Remastered.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.Test\\Agenda-OOP-Remastered.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered.Test\\Agenda-OOP-Remastered.Test.csproj",
         "projectName": "Agenda-OOP-Remastered.Test",
-        "projectPath": "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.Test\\Agenda-OOP-Remastered.Test.csproj",
+        "projectPath": "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered.Test\\Agenda-OOP-Remastered.Test.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.Test\\obj\\",
+        "outputPath": "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.csproj"
+              "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.csproj"
               }
             }
           }
@@ -78,12 +78,12 @@
         }
       }
     },
-    "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.csproj": {
+    "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.csproj",
         "projectName": "Agenda-OOP-Remastered",
-        "projectPath": "C:\\Users\\Rafael\\source\\repos\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.csproj"
+        "projectPath": "C:\\Users\\Rafael\\Source\\Repos\\Agenda-OOP\\Agenda-OOP-Remastered\\Agenda-OOP-Remastered.csproj"
       },
       "frameworks": {
         "net472": {}
