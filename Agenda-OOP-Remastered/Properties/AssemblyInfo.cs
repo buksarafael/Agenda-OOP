@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Agenda-OOP")]
+[assembly: AssemblyTitle("Agenda-OOP-Remastered")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Agenda-OOP")]
+[assembly: AssemblyProduct("Agenda-OOP-Remastered")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0dd91ede-bef0-4bbe-9af9-1b8715afa483")]
+[assembly: Guid("ccde9b2e-757a-4e4d-bb1d-c051645c4e65")]
 
 // Version information for an assembly consists of the following four values:
 //

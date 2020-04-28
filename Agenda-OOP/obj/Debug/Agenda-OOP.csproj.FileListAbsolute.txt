@@ -1,7 +1,0 @@
-C:\Users\Rafael\Source\Repos\Agenda-OOP\Agenda-OOP\bin\Debug\Agenda-OOP.exe.config
-C:\Users\Rafael\Source\Repos\Agenda-OOP\Agenda-OOP\bin\Debug\Agenda-OOP.exe
-C:\Users\Rafael\Source\Repos\Agenda-OOP\Agenda-OOP\bin\Debug\Agenda-OOP.pdb
-C:\Users\Rafael\Source\Repos\Agenda-OOP\Agenda-OOP\obj\Debug\Agenda-OOP.csprojAssemblyReference.cache
-C:\Users\Rafael\Source\Repos\Agenda-OOP\Agenda-OOP\obj\Debug\Agenda-OOP.csproj.CoreCompileInputs.cache
-C:\Users\Rafael\Source\Repos\Agenda-OOP\Agenda-OOP\obj\Debug\Agenda-OOP.exe
-C:\Users\Rafael\Source\Repos\Agenda-OOP\Agenda-OOP\obj\Debug\Agenda-OOP.pdb

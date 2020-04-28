@@ -1,5 +1,6 @@
 ﻿using System;
-namespace Agenda_OOP
+
+namespace Agenda_OOP_Remastered
 {
     internal class Activities
     {

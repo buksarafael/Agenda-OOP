@@ -1,0 +1,7 @@
+C:\Users\Rafael\source\repos\Agenda-OOP-Remastered\Agenda-OOP-Remastered\bin\Debug\Agenda-OOP-Remastered.exe.config
+C:\Users\Rafael\source\repos\Agenda-OOP-Remastered\Agenda-OOP-Remastered\bin\Debug\Agenda-OOP-Remastered.exe
+C:\Users\Rafael\source\repos\Agenda-OOP-Remastered\Agenda-OOP-Remastered\bin\Debug\Agenda-OOP-Remastered.pdb
+C:\Users\Rafael\source\repos\Agenda-OOP-Remastered\Agenda-OOP-Remastered\obj\Debug\Agenda-OOP-Remastered.csprojAssemblyReference.cache
+C:\Users\Rafael\source\repos\Agenda-OOP-Remastered\Agenda-OOP-Remastered\obj\Debug\Agenda-OOP-Remastered.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\source\repos\Agenda-OOP-Remastered\Agenda-OOP-Remastered\obj\Debug\Agenda-OOP-Remastered.exe
+C:\Users\Rafael\source\repos\Agenda-OOP-Remastered\Agenda-OOP-Remastered\obj\Debug\Agenda-OOP-Remastered.pdb
